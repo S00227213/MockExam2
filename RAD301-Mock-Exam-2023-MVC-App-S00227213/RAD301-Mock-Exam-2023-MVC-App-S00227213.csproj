@@ -7,4 +7,13 @@
     <RootNamespace>RAD301_Mock_Exam_2023_MVC_App_S00227213</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.1.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" Version="7.0.1.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.1.13" />
+    <PackageReference Include="Tracker" Version="1.0.7-beta" />
+  </ItemGroup>
+
 </Project>
