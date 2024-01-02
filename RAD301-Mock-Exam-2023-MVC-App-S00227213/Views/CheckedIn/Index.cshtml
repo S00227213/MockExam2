@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Rad301_Mock_Exam_2023_DataModel_S00227213.Passenger>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BaggageCharge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BaggageCharge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Flight.Country)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PassengerId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PassengerId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PassengerId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
