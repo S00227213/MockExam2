@@ -1,9 +1,14 @@
+using Tracker.WebAPIClient;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+// Insert the ActivityAPIClient.Track call here
+ActivityAPIClient.Track(StudentID: "your ID", StudentName: "Your Name", activityName: "Rad301 Mock Exam 2023", Task: "Exam Start");
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
