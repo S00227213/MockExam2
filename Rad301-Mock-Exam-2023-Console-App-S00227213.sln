@@ -3,17 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rad301-Mock-Exam-2023-Console-App-S00227213", "Rad301-Mock-Exam-2023-Console-App-S00227213\Rad301-Mock-Exam-2023-Console-App-S00227213.csproj", "{46C3C138-C9B3-43AD-9A79-5E90E36C8A17}"
-	ProjectSection(ProjectDependencies) = postProject
-		{556D5F21-6A4F-4761-875C-0D30579B95A1} = {556D5F21-6A4F-4761-875C-0D30579B95A1}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rad301-Mock-Exam-2023-Console-App-S00227213", "Rad301-Mock-Exam-2023-Console-App-S00227213\Rad301-Mock-Exam-2023-Console-App-S00227213.csproj", "{F122E6D3-E95B-47B5-89A1-DA2A5CBB8854}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rad301-Mock-Exam-2023-DataModel-S00227213", "Rad301-Mock-Exam-2023-DataModel-S00227213\Rad301-Mock-Exam-2023-DataModel-S00227213.csproj", "{556D5F21-6A4F-4761-875C-0D30579B95A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rad301-Mock-Exam-2023-DataModel-S00227213", "Rad301-Mock-Exam-2023-DataModel-S00227213\Rad301-Mock-Exam-2023-DataModel-S00227213.csproj", "{E54ECB4E-A8BB-4A79-8E26-8DED0D1841DB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAD301-Mock-Exam-2023-MVC-App-S00227213", "RAD301-Mock-Exam-2023-MVC-App-S00227213\RAD301-Mock-Exam-2023-MVC-App-S00227213.csproj", "{4F582575-07B9-4FDF-BB11-F07C51C1164E}"
-	ProjectSection(ProjectDependencies) = postProject
-		{556D5F21-6A4F-4761-875C-0D30579B95A1} = {556D5F21-6A4F-4761-875C-0D30579B95A1}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAD301-Mock-Exam-2023-MVC-App-S00227213", "RAD301-Mock-Exam-2023-MVC-App-S00227213\RAD301-Mock-Exam-2023-MVC-App-S00227213.csproj", "{04904B56-AF6E-459B-A07F-7F1ADC0BAF7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{46C3C138-C9B3-43AD-9A79-5E90E36C8A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46C3C138-C9B3-43AD-9A79-5E90E36C8A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46C3C138-C9B3-43AD-9A79-5E90E36C8A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46C3C138-C9B3-43AD-9A79-5E90E36C8A17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{556D5F21-6A4F-4761-875C-0D30579B95A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{556D5F21-6A4F-4761-875C-0D30579B95A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{556D5F21-6A4F-4761-875C-0D30579B95A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{556D5F21-6A4F-4761-875C-0D30579B95A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F582575-07B9-4FDF-BB11-F07C51C1164E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F582575-07B9-4FDF-BB11-F07C51C1164E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F582575-07B9-4FDF-BB11-F07C51C1164E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F582575-07B9-4FDF-BB11-F07C51C1164E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F122E6D3-E95B-47B5-89A1-DA2A5CBB8854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F122E6D3-E95B-47B5-89A1-DA2A5CBB8854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F122E6D3-E95B-47B5-89A1-DA2A5CBB8854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F122E6D3-E95B-47B5-89A1-DA2A5CBB8854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54ECB4E-A8BB-4A79-8E26-8DED0D1841DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54ECB4E-A8BB-4A79-8E26-8DED0D1841DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54ECB4E-A8BB-4A79-8E26-8DED0D1841DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54ECB4E-A8BB-4A79-8E26-8DED0D1841DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04904B56-AF6E-459B-A07F-7F1ADC0BAF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04904B56-AF6E-459B-A07F-7F1ADC0BAF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04904B56-AF6E-459B-A07F-7F1ADC0BAF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04904B56-AF6E-459B-A07F-7F1ADC0BAF7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {011FDCC0-51BA-4678-8C5F-E4B592610341}
+		SolutionGuid = {9091DA92-CA93-428E-9C2A-F1803126485B}
 	EndGlobalSection
 EndGlobal
