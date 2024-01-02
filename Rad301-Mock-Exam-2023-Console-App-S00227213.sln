@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rad301-Mock-Exam-2023-Console-App-S00227213", "Rad301-Mock-Exam-2023-Console-App-S00227213\Rad301-Mock-Exam-2023-Console-App-S00227213.csproj", "{F122E6D3-E95B-47B5-89A1-DA2A5CBB8854}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rad301-Mock-Exam-2023-Console-App-S00227213", "Rad301-Mock-Exam-2023-Console-App-S00227213\Rad301-Mock-Exam-2023-Console-App-S00227213.csproj", "{F122E6D3-E95B-47B5-89A1-DA2A5CBB8854}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E54ECB4E-A8BB-4A79-8E26-8DED0D1841DB} = {E54ECB4E-A8BB-4A79-8E26-8DED0D1841DB}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rad301-Mock-Exam-2023-DataModel-S00227213", "Rad301-Mock-Exam-2023-DataModel-S00227213\Rad301-Mock-Exam-2023-DataModel-S00227213.csproj", "{E54ECB4E-A8BB-4A79-8E26-8DED0D1841DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rad301-Mock-Exam-2023-DataModel-S00227213", "Rad301-Mock-Exam-2023-DataModel-S00227213\Rad301-Mock-Exam-2023-DataModel-S00227213.csproj", "{E54ECB4E-A8BB-4A79-8E26-8DED0D1841DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAD301-Mock-Exam-2023-MVC-App-S00227213", "RAD301-Mock-Exam-2023-MVC-App-S00227213\RAD301-Mock-Exam-2023-MVC-App-S00227213.csproj", "{04904B56-AF6E-459B-A07F-7F1ADC0BAF7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAD301-Mock-Exam-2023-MVC-App-S00227213", "RAD301-Mock-Exam-2023-MVC-App-S00227213\RAD301-Mock-Exam-2023-MVC-App-S00227213.csproj", "{04904B56-AF6E-459B-A07F-7F1ADC0BAF7A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E54ECB4E-A8BB-4A79-8E26-8DED0D1841DB} = {E54ECB4E-A8BB-4A79-8E26-8DED0D1841DB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
